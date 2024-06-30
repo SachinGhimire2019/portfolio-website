@@ -726,7 +726,8 @@ main {
  * #Brands 
  */
 
- .Brands {
+ 
+.Brands {
   margin-bottom: 15px;
 }
 
@@ -759,12 +760,12 @@ main {
   height: 100%;
   object-fit: cover; /* Ensures the image covers the entire circle */
   display: block; /* Ensures images align properly */
-  filter: grayscale(1);
-  transition: var(--transition-1);
+  filter: grayscale(1); /* Initial grayscale filter */
+  transition: var(--transition-1); /* Smooth transition effect */
 }
 
 .Brands-item img:hover {
-  filter: grayscale(0);
+  filter: grayscale(0); /* Remove grayscale on hover */
 }
 
 
