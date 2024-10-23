@@ -169,8 +169,8 @@ body { background: var(--smoky-black); }
 article {
   background: var(--eerie-black-2);
   border: 1px solid var(--jet);
-  border-radius: 20px;
-  padding: 15px;
+  border-radius: 15px;
+  padding: 25px;
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
